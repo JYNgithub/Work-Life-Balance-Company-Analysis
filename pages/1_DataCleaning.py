@@ -9,7 +9,7 @@ st.set_page_config(
 
 # Configuration: Page List
 pages = {
-    "Home Page": "./Home Page.py"
+    "Home Page": "./HomePage.py"
 }
 
 # Read data

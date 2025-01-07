@@ -9,7 +9,7 @@ st.set_page_config(
 
 # Configuration: Page List
 pages = {
-    "Home Page": "./Home Page.py",
+    "Home Page": "./HomePage.py",
     "Logistic Regression": "./pages/3_LogisticRegression.py",
     "Decision Tree": "./pages/4_DecisionTree.py",
     "Support Vector Machine": "./pages/5_SupportVectorMachine.py",
