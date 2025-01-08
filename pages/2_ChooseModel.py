@@ -33,35 +33,38 @@ with st.container():
         row1_col1, row1_col2 = st.columns([4, 1])  # Subheader and button on the same row
         with row1_col1:
             st.subheader("Logistic Regression")
+            st.write("A statistical model that predicts the probability of a binary outcome by fitting data to a logistic function.")
         with row1_col2:
             if st.button("Select", key=1):
                 st.switch_page(pages["Logistic Regression"])
         
-        st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
+        #st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
         st.markdown("---")
-        st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
+        #st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
 
         # Decision Tree Section
         row2_col1, row2_col2 = st.columns([4, 1])  # Subheader and button on the same row
         with row2_col1:
             st.subheader("Decision Tree")
+            st.write("A flowchart-like model that splits data into subsets based on feature values, recursively building a tree to make decisions.")
         with row2_col2:
             if st.button("Select", key=2):
                 st.switch_page(pages["Decision Tree"])
         
-        st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
+        #st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
         st.markdown("---")
-        st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
+        #st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
 
         # Support Vector Machine Section
         row3_col1, row3_col2 = st.columns([4, 1])  # Subheader and button on the same row
         with row3_col1:
             st.subheader("Support Vector Machine")
+            st.write("A supervised learning algorithm that finds the hyperplane that best separates data points of different classes by maximizing the margin between them.")
         with row3_col2:
             if st.button("Select", key=3):
                 st.switch_page(pages["Support Vector Machine"])
                 
-        st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
+        #st.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
         st.markdown("---")
 
 
